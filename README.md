@@ -148,29 +148,18 @@ Ameal/
 │── about.html
 │── services.html
 │── contact.html
-│
-├── assets/
-│   ├── css/
+├── css/
 │   │   └── style.css
-│   ├── js/
+├── js/
 │   │   └── main.js
-│   └── images/
+├── assets/
+└── images/
 │       └── (logo, backgrounds, food images)
-│
 └── README.md
 
 🧪 How to Run the Project
 
-Simply clone the repository and open the pages in any browser.
-
-git clone https://github.com/your-username/ameal.com.git
-cd ameal.com
-
-
-Open:
-
-index.html
-
+You can simply clone the repository and open the pages in any browser.
 
 No server required.
 
