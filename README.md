@@ -1,90 +1,217 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+🍽️ Ameal.com – Giving a Meal a Day
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A decentralized-inspired food donation platform connecting donors, restaurants, and beneficiaries.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+📌 Overview
 
----
+Ameal.com is a web and mobile platform designed to bridge the gap between abundance and hunger by enabling donors to sponsor meals for people in need.
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+The platform partners with restaurants, delivery services, and verified community centers to prepare and deliver meals directly to the less privileged. Ameal.com contributes to the United Nations Sustainable Development Goal 2 — Zero Hunger, enabling transparent, scalable, and community-driven impact.
 
-Before you write any code, take time to plan:
+This repository contains the front-end source code for the Ameal.com website, including:
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+Responsive HTML pages
 
-**Goal:** Show intentional structure and user journey across the site.
+Modern, colorful CSS design
 
----
+JavaScript interactions & DOM logic
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+Donation-driven user experience
 
-Using your plan, begin building:
+Clean UI animations & mobile-friendly layout
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+🎯 Mission
 
-Each page should:
+"Giving a Meal a Day."
+Our mission is to empower individuals, organizations, and communities to feed the hungry by connecting food donors with partner restaurants that prepare and deliver meals reliably and at scale.
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+🚀 Features
+✔ 1. Meal Donation System
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+Donors sponsor meals with a single click.
 
----
+Transparent display of meal value and impact.
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+Encourages recurring and one-time donations.
 
-Before deployment, refactor your project to follow production-friendly practices:
+✔ 2. Restaurant Partnership Program
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+Restaurants register to become meal-prep partners.
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+Verified restaurants receive orders funded by donors.
 
----
+Supports local economies and reduces food waste.
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+✔ 3. Delivery Coordination
 
-Once your project is complete, choose a method to **host your site online**.
+Meals are delivered through partnered mobility services or volunteers.
 
-You can use:
+Delivery updates integrated into the system (future feature).
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+✔ 4. Advocacy for SDG Goal 2: Zero Hunger
 
-Deploy your project and confirm that:
+Ameal.com is built to support global hunger eradication.
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+Encourages social responsibility and community participation.
 
-**Goal:** Publish your work online and make it accessible to the world.
+✔ 5. Fully Responsive Website
 
----
+Works on all devices: mobile, tablet, and desktop.
 
-## Deliverables
+Lightweight and fast-loading.
 
-1. A GitHub repository containing:
+✔ 6. Clean UI / UX
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+Earth-toned food-friendly color palette.
 
----
+Smooth animations and interactive buttons.
 
-## Outcome
+Centered hero images and modern page structure.
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+🧩 Pages Included
+1. Home Page – index.html
+
+Introduction to Ameal.com
+
+Hero section
+
+Donation call-to-action
+
+Steps on how the system works
+
+2. About Page – about.html
+
+Mission and vision
+
+Story and core values
+
+Sustainable hunger solutions
+
+3. Services / How It Works Page – services.html
+
+How donors fund meals
+
+How restaurants prepare and deliver food
+
+Lifecycle of every donated meal
+
+4. Contact Page – contact.html
+
+Contact form for inquiries
+
+Restaurant partnership interest
+
+Support channels
+
+🎨 Design and Branding
+Color Palette (Earthy Tones)
+
+Orange – Warmth & generosity
+
+Green (#2E7D32) – Growth, food, sustainability
+
+Cream / Light Beige – Calm and trust
+
+Typography
+
+Clean, readable sans-serif fonts
+
+Modern button styles and rounded edges
+
+Animations
+
+Fade-ins
+
+Smooth hover effects
+
+Scroll transitions
+
+🧰 Tech Stack
+
+HTML5 – Semantic layered structure
+
+CSS3 – Animations, responsiveness, design system
+
+JavaScript (main.js) –
+
+Navbar interactions
+
+Animation triggers
+
+Form handling
+
+DOM event listeners
+
+📁 Project Structure
+Ameal/
+│── index.html
+│── about.html
+│── services.html
+│── contact.html
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+│       └── (logo, backgrounds, food images)
+│
+└── README.md
+
+🧪 How to Run the Project
+
+Simply clone the repository and open the pages in any browser.
+
+git clone https://github.com/your-username/ameal.com.git
+cd ameal.com
+
+
+Open:
+
+index.html
+
+
+No server required.
+
+📦 Future Improvements
+
+Meal donation API
+
+Donor dashboard
+
+Restaurant dashboard
+
+Real-time meal tracking
+
+Wallet-based or crypto-enabled donations
+
+Admin panel for verifying partners
+
+Delivery integrations
+
+🤝 Contributing
+
+Contributions are welcome!
+You can:
+
+Report issues
+
+Suggest features
+
+Submit pull requests
+
+Please ensure your changes follow Clean Code and Web Accessibility standards.
+
+📩 Contact
+
+For partnership, volunteering, or donations:
+
+📧 Email: support@ameal.com
+
+🌐 Website: https://ameal.com
+
+❤️ Acknowledgments
+
+Thank you to everyone supporting hunger relief efforts worldwide.
+Together, we can Give a Meal a Day and make a real difference.
