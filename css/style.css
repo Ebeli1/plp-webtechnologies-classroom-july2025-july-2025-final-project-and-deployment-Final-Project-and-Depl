@@ -17,7 +17,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", monstrel;
 }
 
 body {
@@ -67,6 +67,7 @@ header {
     box-sizing: border-box;
     font-weight: 500;
     color: var(--dark);
+    font-weight: 300;
     transition: 0.3s ease;
 }
 
